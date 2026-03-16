@@ -1,2 +1,2 @@
 # Vibe Project Test
-Learning
+Just learning the basics of software development tools and how to use GitHub, VS Code, etc
