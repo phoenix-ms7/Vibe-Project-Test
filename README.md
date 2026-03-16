@@ -4,7 +4,7 @@ A simple, fast-deployed decision-making tool built to explore the "vibe-coding" 
 
 ## 📝 About the Project
 This project serves as my playground for learning Git, GitHub workflows, and AI-assisted development. As a TPM, I'm building this to bridge the gap between high-level system design and hands-on implementation. 
-![App Screenshot] (Screenshot.png.png)
+![App Screenshot](Screenshot.png.png)
 
 ## 🛠 Built With
 * **HTML/CSS/JS:** Core building blocks.
