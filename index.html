@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TPM Vibe Tool</title>
+    <style>
+        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-color: #f0f2f5; }
+        button { padding: 15px 30px; font-size: 1.2rem; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Should we push to Prod?</h1>
+    <button onclick="decide()">Ask the Vibe</button>
+    <h2 id="result"></h2>
+
+    <script>
+        function decide() {
+            const answers = ["Yes, vibes are high.", "No, the sprint is cursed.", "Ask again after standup.", "LGTM!", "Rollback immediately."];
+            document.getElementById('result').innerText = answers[Math.floor(Math.random() * answers.length)];
+        }
+    </script>
+</body>
+</html>
